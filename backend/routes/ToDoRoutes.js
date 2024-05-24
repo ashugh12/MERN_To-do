@@ -4,8 +4,8 @@ const router = Router();
 
 router.get('/', getToDo);
 router.post("/save", saveToDo)
-router.put("/update", updateToDo)
-router.delete("/delete", deleteToDo)
+router.post("/update", updateToDo)
+router.post("/delete", deleteToDo)
 
 
 module.exports = router
